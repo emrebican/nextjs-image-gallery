@@ -10,7 +10,7 @@ const BlurImage = ({ image }) => {
   const [loading, setLoading] = useState(true)
 
   return (
-    <a href={image.imageSrc} target="_blank" className="group">
+    <a href={image.imageSrc} className="group">
       <div className="aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 w-full overflow-hidden rounded-lg bg-gray-200">
         <Image
           alt=""
